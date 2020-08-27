@@ -47,12 +47,13 @@ header:before {
    vertical-align: middle;
    height: 100%;
 }
+
 header .banner {
    display: inline-block;
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -325,23 +326,23 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 3px 0 0 3px;
 }
 
-.photoshop {
-  	width: 60%;
+.python {
+  	width: 70%;
   	-moz-animation: photoshop 2s ease;
   	-webkit-animation: photoshop 2s ease;
 }
-.illustrator {
-  	width: 55%;
+.java {
+  	width: 80%;
   	-moz-animation: illustrator 2s ease;
   	-webkit-animation: illustrator 2s ease;
 }
-.wordpress {
-  	width: 50%;
+.jscript {
+  	width: 70%;
   	-moz-animation: wordpress 2s ease;
   	-webkit-animation: wordpress 2s ease;
 }
 .css {
-  	width: 90%;
+  	width: 80%;
   	-moz-animation: css 2s ease;
   	-webkit-animation: css 2s ease;
 }
@@ -350,10 +351,17 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
-.jquery {
-  	width: 50%;
+
+.sql {
+  	width: 75%;
   	-moz-animation: jquery 2s ease;
   	-webkit-animation: jquery 2s ease;
+}
+
+.Mongodb {
+   width: 50%;
+   -moz-animation: jquery 2s ease;
+   -webkit-animation: jquery 2s ease;
 }
 
 @-moz-keyframes photoshop {

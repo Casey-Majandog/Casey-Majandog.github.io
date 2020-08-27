@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Conversion</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+   <link href="https://fonts.googleapis.com/css?family=Alice&display=swap" rel="stylesheet">
+	<script src="conversion.js"></script>
+	<link href="conv_style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body class="other">
+    
+    <h1>Six Imperial to/from Metric Conversion</h1>
+
+    <h2>Feet to Centimetre</h2>
+    <table>
+		<tr>
+			<th>Imperial Value Feet</th>
+			<th>Metric Value Centimetre</th>
+		</tr>
+		<tr>
+            <td><input type="number" min="0" id="imperial" onchange="convertToMetric(this.value);"></td>
+		    <td><input type="number" min="0" id="metric" onchange="convertToImperial(this.value);"></td>
+		</tr>
+	</table>
+    
+        <h2>Gallon to Litre</h2>
+    <table>
+		<tr>
+			<th>Imperial Value Gallon</th>
+			<th>Metric Value Litre</th>
+		</tr>
+		<tr>
+            <td><input type="number" min="0" id="imperialGal" onchange="convertToMetricGal(this.value);"></td>
+		    <td><input type="number" min="0" id="metricLit" onchange="convertToImperialLit(this.value);"></td>
+		</tr>
+	</table>
+    
+            <h2>Pounds to Kilograms</h2>
+    <table>
+		<tr>
+			<th>Imperial Value Pound</th>
+			<th>Metric Value Kilogram</th>
+		</tr>
+		<tr>
+            <td><input type="number" min="0" id="imperialPound" onchange="convertToMetricPound(this.value);"></td>
+		    <td><input type="number" min="0" id="metricKilo" onchange="convertToImperialKilo(this.value);"></td>
+		</tr>
+	</table>
+    
+                <h2>Farenheit to Celsius</h2>
+    <table>
+		<tr>
+			<th>Imperial Value Farenheit</th>
+			<th>Metric Value Celsius</th>
+		</tr>
+		<tr>
+            <td><input type="number" min="-58" id="imperialFaren" onchange="convertToMetricFarenheit(this.value);"></td>
+		    <td><input type="number" min="-50" id="metricCels" onchange="convertToImperialCelsius(this.value);"></td>
+		</tr>
+	</table>
+    
+                    <h2>Yard Squared to Metre Squared</h2>
+    <table>
+		<tr>
+			<th>Imperial Value Yard sqr</th>
+			<th>Metric Value Metre sqr</th>
+		</tr>
+		<tr>
+            <td><input type="number" min="0" id="imperialYard" onchange="convertToMetricYard(this.value);"></td>
+		    <td><input type="number" min="0" id="metricMetre" onchange="convertToImperialMetre(this.value);"></td>
+		</tr>
+	</table>
+    
+            <h2>Miles per Hour to Kilometres per Hour</h2>
+    <table>
+		<tr>
+			<th>Imperial Value MPH</th>
+			<th>Metric Value KmPH</th>
+		</tr>
+		<tr>
+            <td><input type="number" min="0" id="imperialMPH" onchange="convertToMetricMPH(this.value);"></td>
+		    <td><input type="number" min="0" id="metricKmPH" onchange="convertToImperialKmPH(this.value);"></td>
+		</tr>
+	</table>
+    
+    <br/>  
+    <hr/>
+      
+
+</body>
+</html>

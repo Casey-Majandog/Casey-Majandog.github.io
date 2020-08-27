@@ -1,0 +1,100 @@
+body.other
+{
+    text-align: center;
+	font-family: 'Alice', serif;
+    background-image: url(background.jpg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+header
+{
+    font-size: 150%;
+    text-align: center
+}
+
+
+form 
+{
+    display: inline-block;
+}
+
+.input 
+{
+	background-color: white;
+}
+
+.output 
+{
+	background-color: grey;
+	color: white;
+}
+
+
+.label
+{
+text-align: left;
+width: 300px;
+} 
+
+h2.title
+{
+    font-size: 150%;
+    color: black;
+}
+
+a.title
+{
+    font-size: 130%;
+    color: black;
+}
+
+a.title:hover
+{
+    color: darkgray;
+}
+
+p.index
+{
+    margin-left: 25em;
+    margin-right: 25em;
+    text-align: left;
+}
+
+table, th, td {
+	border-style:ridge;
+    border-width: thick;
+	padding: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+body.cake
+{
+    text-align: center;
+	font-family: 'Itim', cursive;
+    background-color: deepskyblue;
+
+}
+
+.pheader
+{
+    font-size: 130%;
+}
+
+
+.right
+{
+    text-align: right;
+}
+
+li
+{
+      list-style-type: none;
+}
+
+
+
