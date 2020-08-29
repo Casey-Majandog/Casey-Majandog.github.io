@@ -283,7 +283,7 @@ ul#nav li.current a { color: #F06000; }
 }
 
 /*----------------------------------------------*/
-/*	Skill Bars
+/*	Skill Bars / Skills Section
 /*----------------------------------------------*/
 
 .bars {
@@ -363,6 +363,23 @@ ul#nav li.current a { color: #F06000; }
    -moz-animation: jquery 2s ease;
    -webkit-animation: jquery 2s ease;
 }
+
+* {
+   box-sizing: border-box;
+ }
+ 
+ .column {
+   float: left;
+   width: 33.33%;
+   padding: 5px;
+ }
+ 
+ /* Clearfix (clear floats) */
+ .row::after {
+   content: "";
+   clear: both;
+   display: table;
+ }
 
 @-moz-keyframes photoshop {
   0%   { width: 0px;  }
